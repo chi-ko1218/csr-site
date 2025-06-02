@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8" />
+ <link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c&display=swap" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>自己紹介 | CSRつなぐ屋</title>
+ <link rel="stylesheet" href="style.css" />
+<style>
+  .button-cute {
+ display: inline-block;
+ background-color: #888888;   /* ピンク系 */
+ color: white;
+ padding: 12px 28px;
+ border-radius: 30px;         /* まるっと丸い */
+ font-weight: bold;
+ font-size: 16px;
+ text-decoration: none;
+ box-shadow: 0 4px 6px rgba(247, 168, 184, 0.5);
+ transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-cute:hover {
+ background-color: #888888;
+ box-shadow: 0 6px 12px rgba(244, 140, 174, 0.7);
+}
+   body {
+     background-color: #fff0f5;
+     color: #888888;
+     padding: 40px;
+     line-height: 1.6;
+     text-align: center;
+   }
+
+   h2 {
+     font-size: 28px;
+     text-align: center;
+     margin-bottom: 30px;
+   }
+   nav.main-nav {
+     margin-top: 40px;
+     text-align: center;
+     font-size: 16px;
+   }
+
+   nav.main-nav a {
+     color: #ff6699;
+     text-decoration: none;
+     margin: 0 10px;
+   }
+
+   nav.main-nav a:hover {
+     text-decoration: underline;
+   }
+
+   @media screen and (max-width: 600px) {
+     body {
+       padding: 20px;
+       font-size: 16px;
+     }
+
+     .service-box {
+       padding: 20px;
+     }
+   }
+ </style>
+</head>
+<body> 
+ <div class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+ <nav class="menu" id="menu">
+  <a href="index.html">ホーム</a>
+  <a href="about.html">自己紹介</a>
+  <a href="service.html">サービス紹介</a>
+  <a href="works.html">リノベーション</a>
+  <a href="company.html">会社概要</a>
+  <a href="contact.html">お問い合わせ</a>
+</nav>
+<header class="top-header header-left">
+ <div class="logo-box">
+ <img src="logo.png" alt="CSRロゴ" class="logo-img-left">
+<span class="logo-name">CSR<br>
+    <span style="font-size: 0.6em;">〜つなぐ屋〜</span>
+</div></header>
+
+<hr class="soft-line">
+<div class="border-box">
+ <h2>自己紹介</h2></div>
+ <div class="profile">
+  <h2>ちー</h2> 
+  <p>
+      「Webの力で人と地域をつなぐ、そんな想いで活動しています。」</p>
+  <img src="images/purof.png" alt="ちさきの写真" /><br>
+     <a href="web.html" class="button-cute">Webのおしごとを見る</a>
+   </div>
+
+   <!-- サルさんのプロフィール -->
+   <div class="profile">
+     <h2>おさる</h2>
+     <p>「20年超の現場経験活かした解体のおしごと、丁寧・迅速がモットーです。」</p>
+     <img src="images/purof2.png" alt="サルの写真" /><br>
+     <a href="works.html" class="button-cute">解体のおしごとを見る</a>
+   </div>
+
+<div class="button-area">
+  <a href="index.html" class="button-cute">ホーム</a>
+  </div>
+
+ </div>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.js"></script>
+<script src="main.js"></script>
+ <footer class="site-footer">
+ <div class="footer-content">
+   <p class="footer-name">CSRつなぐ屋</p>
+   <p>📍 東京都足立区（自宅兼事務所）</p>
+   <p>📞 <a href="tel:05010260368">050-1026-0368</a></p>
+   <p>✉️ <a href="mailto:info@csr-tsunaguya.com">csr.tsunagu626@gmail.com</a></p>
+   <p class="copyright">© 2025 CSRつなぐ屋. All Rights Reserved.</p>
+ </div>
+</footer>
+</body>
+</html>

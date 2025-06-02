@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta charset="UTF-8" />
+ <title>CSRつなぐ屋</title>
+ <link rel="stylesheet" href="style.css" /></head>
+
+  <header class="top-header header-left">
+ <div class="logo-box">
+ <img src="logo.png" alt="CSRロゴ" class="logo-img-left">
+ <span class="logo-name">CSR<br>
+    <span style="font-size: 0.6em;">〜つなぐ屋〜</span>
+</div></header>
+ <meta charset="UTF-8" />
+ <title>施工例 - 店舗スケルトン解体</title>
+ <link rel="stylesheet" href="../style.css" />
+ <style>
+   body {
+     background-color: #fff0f5;
+     color: #888888;
+     padding: 40px;
+     line-height: 1.6;
+     text-align: center;
+   }
+   .button-cute {
+ display: inline-block;
+ background-color: #888888;   /* ピンク系 */
+ color: white;
+ padding: 12px 28px;
+ border-radius: 30px;         /* まるっと丸い */
+ font-weight: bold;
+ font-size: 16px;
+ text-decoration: none;
+ box-shadow: 0 4px 6px rgba(247, 168, 184, 0.5);
+ transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-cute:hover {
+ background-color: #f48cae;
+ box-shadow: 0 6px 12px rgba(244, 140, 174, 0.7);
+}</style>
+</head>
+<body>
+  <div class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<nav class="menu" id="menu">
+  <a href="index.html">ホーム</a>
+  <a href="about.html">自己紹介</a>
+  <a href="service.html">サービス紹介</a>
+  <a href="works.html">リノベーション</a>
+  <a href="company.html">会社概要</a>
+  <a href="contact.html">お問い合わせ</a>
+</nav>
+ <header>
+  <div class="border-box">
+   <h1>産廃業務</h1></div>
+ </header>
+
+ <section class="work-detail">
+   <div class="work-gallery">
+     <img src="gallery/yj06.jpg" alt="施工例1">
+     <img src="gallery/yj07.JPG" alt="施工例2">
+     <img src="gallery/yj08.jpg" alt="施工例3">
+     <img src="gallery/yj09.jpg" alt="施工例4">
+     <img src="gallery/yj10.jpg" alt="施工例5">
+   </div>
+   <p>
+     原状回復に伴うスケルトン工事を実施。<br>
+     養生から解体、搬出までしっかりと安全管理を徹底し、周囲への配慮も万全に作業しました。
+   </p>
+ </section>
+
+ <footer>
+   <p><a href="works.html" class="button-cute">← 施工例一覧に戻る</a></p>
+ </footer>
+<script>
+ const toggle = document.getElementById("menuToggle");
+ const menu = document.getElementById("menu");
+
+ toggle.addEventListener("click", () => {
+   if (menu.style.display === "flex") {
+     menu.style.display = "none";
+   } else {
+     menu.style.display = "flex";
+   }
+ });
+</script>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.js"></script>
+<script src="main.js"></script>
+<footer class="site-footer">
+ <div class="footer-content">
+   <p class="footer-name">CSRつなぐ屋</p>
+   <p>📍 東京都足立区（自宅兼事務所）</p>
+   <p>📞 <a href="tel:05010260368">050-1026-0368</a></p>
+   <p>✉️ <a href="mailto:info@csr-tsunaguya.com">csr.tsunagu626@gmail.com</a></p>
+   <p class="copyright">© 2025 CSRつなぐ屋. All Rights Reserved.</p>
+ </div>
+</footer>
+</body>
+</html>

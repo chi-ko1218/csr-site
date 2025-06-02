@@ -1,0 +1,540 @@
+/* 共通設定 */
+body {
+ background-color: #fff0f5;
+ font-family: 'Rounded Mplus 1c',Arial, sans-serif;
+ margin: 0;
+ color: #888888;
+ line-height: 1.6;
+ text-align: center;
+}
+
+/* キャッチコピー */
+.catch {
+ font-size: 20px;
+ color: #444;
+ margin-top: 10px;
+}
+
+/* 電話番号 */
+.phone {
+ font-size: 18px;
+ font-weight: bold;
+ margin: 20px 0;
+}
+
+.phone a {
+ color: #666666;
+ text-decoration: none;
+}
+
+.phone a:hover {
+ color: #666666;
+}
+
+/* ナビゲーション */
+.main-nav {
+ margin-top: 20px;
+ font-size: 16px;
+ text-align: center;
+}
+
+.main-nav a {
+ color: #666;
+ text-decoration: none;
+ margin: 0 10px;
+ font-weight: bold;
+}
+
+.main-nav a:hover {
+ text-decoration: underline;
+ color: #ff3366;
+}
+
+/* メイン画像 */
+.main-photo {
+ width: 100%;
+ max-width: 650PXS;
+ margin: 20px auto;
+ border-radius: 12px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ボタン画像 */
+.btn-wrap {
+ text-align: center;
+ margin: 30px auto;
+}
+
+.btn-image {
+ width: 150px;
+ max-width: 90%;
+ margin: 10px;
+ transition: 0.3s ease;
+}
+
+.btn-image:hover {
+ opacity: 0.8;
+}
+
+/* フッター */
+.site-footer {
+ background-color: #fff0f5;
+ color: #555;
+ text-align: center;
+ padding: 30px 20px;
+ margin-top: 40px;
+ font-size: 14px;
+ border-top: 2px solid #666666;
+}
+
+.site-footer a {
+ color: #666666;
+ text-decoration: none;
+}
+
+.site-footer a:hover {
+ text-decoration: underline;
+}
+
+.footer-name {
+ font-size: 18px;
+ font-weight: bold;
+ color: #666666;
+ margin-bottom: 10px;
+}
+.soft-line {
+ border: none;
+ height: 2px;
+ background: linear-gradient(to right, #ffccd5, #fff9f0, #ffccd5);
+ margin: 30px auto;
+ max-width: 300px;
+ border-radius: 1px;
+}
+.sub-massage{
+  font-style: italic;
+  font-size: 25px;
+  color: #888;
+  margin: 15px 0 30px;
+}
+/* お問い合わせフォーム */
+.contact-form {
+ max-width: 600px;
+ margin: 30px auto;
+ padding: 20px;
+ background: #f6f4f9;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.contact-form label {
+ display: block;
+ margin-bottom: 10px;
+ text-align: left;
+ font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+ width: 100%;
+ padding: 10px;
+ font-size: 16px;
+ margin-top: 5px;
+ border-radius: 5px;
+ border: 1px solid #ccc;
+ box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+    font-size: 15px;
+  }
+
+  .contact-form label {
+    font-size: 14px;
+  }
+}
+
+/* スマホ対応（600px以下） */
+@media screen and (max-width: 600px) {
+ body {
+   font-size: 16px;
+   padding: 10px;
+ }
+
+ .logo-img-left {
+   width: 150px;
+ }
+
+ .catch {
+   font-size: 16px;
+ }
+
+ .main-nav {
+   font-size: 14px;
+   margin-top: 10px;
+ }
+
+ .btn-image {
+   width: 120px;
+   margin: 8px;
+ }
+
+ .contact-form {
+   padding: 15px;
+ }
+ img{
+  width: 100%;
+  height: auto;
+  display: block;
+ }
+}
+/*施工例関連*/
+.work-block {
+ margin-bottom: 40px;
+ background-color: #fff0f5;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+ max-width: 800px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.work-block h3 {
+ color: #ffffff;
+ margin-bottom: 10px;
+}
+
+.work-gallery {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ justify-content: center;
+ margin-bottom: 10px;
+}
+
+.work-gallery img {
+ width: 250px;
+ border-radius: 6px;
+ object-fit: cover;
+}
+.work-detail {
+ max-width: 800px;
+ margin: 40px auto;
+ padding: 20px;
+ background-color: #f6f4f9; /* やさしいクリーム色 */
+ border-radius: 10px;
+ box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+ text-align: center;
+}
+
+.work-gallery {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+ margin-bottom: 20px;
+}
+
+.work-gallery img {
+ width: 240px;
+ border-radius: 6px;
+ object-fit: cover;
+}
+.work-gallery-item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.works {
+ padding: 40px 20px;
+ background: #fff0f5; /* 明るいピンク */
+ text-align: center;
+}
+
+.works h2 {
+ font-size: 28px;
+ color: #666;
+ margin-bottom: 10px;
+}
+
+.works p {
+ color: #666;
+ margin-bottom: 30px;
+ font-size: 16px;
+}
+
+.gallery {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 20px;
+}
+
+.gallery-item {
+ background: #f6f4f9;
+ border-radius: 12px;
+ box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+ overflow: hidden;
+ width: 260px;
+ transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+ transform: translateY(-5px);
+}
+
+.gallery-item img {
+ width: 100%;
+ height: 180px;
+ object-fit: cover;
+}
+
+.gallery-item p {
+ padding: 12px;
+ font-weight: bold;
+ color: #444;
+ font-size: 15px;
+}.menu-toggle {
+ position: fixed;
+ top: 50px;
+ right: 20px;
+ z-index: 999;
+ cursor: pointer;
+ width: 30px;
+ height: 25px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+/*swiper*/
+.swiper{
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.swiper-slide{
+  width: 100%;
+  height: auto;
+}
+.swiper-slide img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+.button-wrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+.btn-image{
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: #666666;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.logo-box {
+  position: static;    /* 画面の左上に固定 */
+  top: 20px;          /* 上から10px */
+  left: 10px;         /* 左から10px */
+  display: flex;
+  align-items: center;
+  gap: 8px;           /* ロゴ画像とテキストの間の隙間 */
+  z-index: auto;      /* 他の要素より前面に */
+}
+
+.logo-name {
+  color: #888888;        /* テキストの色（好みで変えてね） */
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1;
+  user-select: none;  /* テキスト選択されないように */
+}
+.swiper{
+  margin-top: 200px;
+}
+.site-header {
+  background-color: #fff;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img-left {
+  height: 180px;
+  margin-right: 10px;
+}
+
+.logo-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: #888888;
+  line-height: 1;
+  user-select: none;
+  margin-left: -100px;
+  margin-top: 85px;
+}
+/*3本メニューの設定*/
+.menu-toggle {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ width: 30px;
+ height: 25px;
+ cursor: pointer;
+ z-index: 1000;
+}
+
+.menu-toggle span {
+ height: 4px;
+ background-color: #666;
+ border-radius: 2px;
+ transition: 0.3s;
+}
+
+.menu-toggle.open span:nth-child(1) {
+ transform: rotate(45deg) translateY(10px);
+}
+.menu-toggle.open span:nth-child(2) {
+ opacity: 0;
+}
+.menu-toggle.open span:nth-child(3) {
+ transform: rotate(-45deg) translateY(-10px);
+}
+
+.menu {
+ display: none ;
+ flex-direction: column;
+ text-align: center;
+ background-color: #fff0f5;
+ padding: 20px;
+ position: absolute;
+ top: 60px;
+ left: 0;
+ right: 0;
+ z-index: 999;
+}
+
+/* メニューふんわりアニメーション */
+.menu {
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff0f5;
+  padding: 20px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu.open {
+  display: flex;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* メニュー内のリンク */
+.menu a {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #666666;
+  text-decoration: none;
+}
+
+.menu.open {
+ display: flex;
+}
+
+.menu a {
+ margin: 10px 0;
+ font-weight: bold;
+ color: #666666;
+ text-decoration: none;
+}
+
+.button-cute {
+ display: inline-block;
+ background-color: #888888;   /* ピンク系 */
+ color: white;
+ padding: 12px 28px;
+ border-radius: 30px;         /* まるっと丸い */
+ font-weight: bold;
+ font-size: 16px;
+ text-decoration: none;
+ box-shadow: 0 4px 6px rgba(247, 168, 184, 0.5);
+ transition: background-color 0.3s ease, box-shadow 0.3s ease;
+ margin: 50px;
+ text-align: center;
+}
+
+.button-cute:hover {
+ background-color: #f48cae;
+ box-shadow: 0 6px 12px rgba(244, 140, 174, 0.7);
+}
+.button-cute :visited{
+  color: white;
+}
+@media screen and (max-width: 600px){
+  .button-cute{
+    font-size: 14px;
+    padding: 8px 16px;
+    min-width: 100px;
+  }  
+}
+.button-area{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+@keyframes fadeInMenu {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.border-box{
+  border: 4px double #d0f0f7;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f7fff7;
+}
+.top-page .swiper-button-next,
+.top-page .swiper-button-prev{
+  display: none; !important;
+}

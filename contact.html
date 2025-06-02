@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Rounded+Mplus+1c&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>お問い合わせ | CSRつなぐ屋</title>
+ <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+
+   body {
+     background-color: #fff0f5;
+     color: #888888;
+     padding: 40px;
+     line-height: 1.6;
+     text-align: center;
+   }
+   @media screen and (max-width: 768px){
+    .img-margin{
+      margin-top: 40px;
+    }
+    
+   }
+</style>
+<body>
+<div class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<nav class="menu" id="menu">
+  <a href="index.html">ホーム</a>
+  <a href="about.html">自己紹介</a>
+  <a href="service.html">サービス紹介</a>
+  <a href="works.html">リノベーション</a>
+  <a href="company.html">会社概要</a>
+  <a href="contact.html">お問い合わせ</a>
+</nav>
+<header class="top-header header-left">
+ <div class="logo-box">
+ <img src="logo.png" alt="CSRロゴ" class="logo-img-left">
+ <span class="logo-name">CSR<br>
+    <span style="font-size: 0.6em;">〜つなぐ屋〜</span>
+</div></header>
+<hr class="soft-line">
+<div class="border-box">
+ <h2>お問い合わせ</h2></div>
+
+ <form action="https://formsubmit.co/csr.tsunagu626@gmail.com" method="POST" class="contact-form">
+  <input type="hidden" name="_next" value="https://snazzy-crisp-b73de3.netlify.app/thanks.html">
+  <input type="hidden" name="_captcha" value="flse">
+  <label>お名前：
+     <input type="text" name="name" required>
+   </label>
+
+   <label>メールアドレス：
+     <input type="email" name="email" required>
+   </label>
+
+   <label>お問い合わせ種別：
+     <select name="type" required>
+       <option value="">選択してください</option>
+       <option value="サービスについて">サービスについて</option>
+       <option value="見積もりの相談">見積もりの相談</option>
+       <option value="その他のご質問">その他のご質問</option>
+     </select>
+   </label>
+
+   <label>お問い合わせ内容：
+     <textarea name="message" rows="5" required></textarea>
+   </label>
+
+   <button type="submit" class="button-cute">送信する</button>
+ </form>
+
+ <div class="button-area">
+  <a href="index.html" class="button-cute">ホーム</a>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.js"></script>
+<script src="main.js"></script>
+<footer class="site-footer">
+ <div class="footer-content">
+   <p class="footer-name">CSRつなぐ屋</p>
+   <p>📍 東京都足立区（自宅兼事務所）</p>
+   <p>📞 <a href="tel:05010260368">050-1026-0368</a></p>
+   <p>✉️ <a href="mailto:info@csr-tsunaguya.com">csr.tsunagu626@gmail.com</a></p>
+   <p class="copyright">© 2025 CSRつなぐ屋. All Rights Reserved.</p>
+ </div>
+</footer>
+</body>
+</html>
